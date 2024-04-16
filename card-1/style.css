@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+}
+.text-card{
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.text-im{
+    width: 30%;
+    height: 100%;
+
+    padding: 10px;
+    float: left;
+}
+.text-im img{
+    width: 100%;
+    height: 100%;
+
+}
+.text-test{
+    width: 70%;
+    height: 100%;
+    padding: 30px;
+    float: right;
+    text-align: justify;
+
+}
+.text-test h2{
+    color: blueviolet; 
+    line-height: 50px;
+
+}
+.text-test p{
+    color: cadetblue;
+    line-height: 20px;
+    font-weight: 700;
+}
